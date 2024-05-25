@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#import "${1:template_incl_path}": note
+#show note.with(
+  title: [${2:title}],
+  author: "${3:author}",
+  date: [${4:date}],
+)
+// content hereon
+  ]]></content>
+  <tabTrigger>note</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a note block</description>
+</snippet>

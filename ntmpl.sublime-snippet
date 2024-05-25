@@ -1,0 +1,101 @@
+<snippet>
+  <content><![CDATA[
+// technical note -- a typst template
+#let note(
+  title: [Note title],
+  author: "Author",
+  date: none,
+  body,
+) = {
+  // page properties
+  set page(
+    paper: "a4",
+    margin: (x: 1.25in, y: 1.25in),
+    numbering: "1",
+  )
+
+  // Set document metadata.
+  set document(title: title, author: author)
+
+  // text characteristics
+  set text(
+    font: "Arial",
+    // top-edge: "cap-height",
+    // bottom-edge: "baseline",
+    number-type: "old-style",
+    // size: 10pt // default: 11pt,
+  )
+
+  // link properties
+  show cite: set text(fill: maroon)
+  show link: set text(fill: rgb(0, 0, 255))
+  show link: underline
+  show "tbc": set text(fill: red)
+  show "tbd": set text(fill: red)
+
+  // small caps where supported by font
+  let sc(content) = text(features: ("c2sc",))[#content]
+  show regex("[A-Z]{2,}"): match => {
+    sc(match)
+  }
+
+  // text characteristics for code
+  show raw: set text(size: 8pt)
+
+  // paragraph properties
+  set par(
+    leading: 0.65em,
+    first-line-indent: 12pt,
+    justify: true,
+  )
+  show par: set block(spacing: 0.65em)
+
+  // configure equation numbering and spacing
+  set math.equation(numbering: "(1)")
+  show math.equation: set block(spacing: 0.65em)
+  // Configure appearance of equation references
+  show ref: it => {
+    if it.element != none and it.element.func() == math.equation {
+      // Override equation references.
+      link(it.element.location(), numbering(
+        it.element.numbering,
+        ..counter(math.equation).at(it.element.location())
+      ))
+    } else {
+      // Other references as usual.
+      it
+    }
+  }
+
+  // caption for table position and style
+  show figure.where(
+    kind: table
+  ): set figure.caption(position: top)
+
+  // emphasise caption
+  show figure.caption: emph
+
+  // emphasise first table row (proxy for header)
+  show table.cell.where(y: 0): emph
+
+  // first (title) page
+  page(align(center)[ // center + horizon (to vertically center)
+    #v(4em)
+    #text(2em)[#title]
+    #if (author != none) {
+      v(2em, weak: true)
+      text(1.2em, author)
+    }
+    #if (date != none) {
+      v(2em, weak: true)
+      text(1.2em, date)
+    }
+  ])
+  // show content
+  body
+}
+  ]]></content>
+  <tabTrigger>ntmpl</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert note template</description>
+</snippet>

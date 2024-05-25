@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+#bibliography(title: "References", "${1:filename_incl_path}.bib")
+  ]]></content>
+  <tabTrigger>ref</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a reference block</description>
+</snippet>

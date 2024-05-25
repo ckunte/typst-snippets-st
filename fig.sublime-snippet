@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+#figure(
+  image("${1:filename_incl_path}", width: 100%),
+  caption: [${2:Description}]
+) <${3:label}>
+  ]]></content>
+  <tabTrigger>fig</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a figure block</description>
+</snippet>

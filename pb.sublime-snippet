@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+#pagebreak(weak: true)
+  ]]></content>
+  <tabTrigger>pb</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert page break</description>
+</snippet>

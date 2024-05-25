@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+#set heading(numbering: "1.1")
+  ]]></content>
+  <tabTrigger>hd</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Set head numbering</description>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+#import "letter-template.typ": letter
+#show: letter.with(
+  sender: [
+    ${1:name_and_address}  
+  ],
+  recipient: [
+    ${2:name_and_address}     
+  ],
+  date: [#datetime.today().display("[month repr:long] [day], [year]")],
+  subject: [${3:subject}],
+  name: [],       
+)
+// letter content hereon
+${4:letter_content_hereon}
+  ]]></content>
+  <tabTrigger>letter</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a letter block</description>
+</snippet>

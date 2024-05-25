@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+#include "${1:filename_incl_path}"
+  ]]></content>
+  <tabTrigger>file</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert file</description>
+</snippet>

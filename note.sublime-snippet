@@ -1,12 +1,41 @@
 <snippet>
   <content><![CDATA[
 #import "${1:template_incl_path}": note
-#show note.with(
+#show: note.with(
   title: [${2:title}],
   author: "${3:author}",
   date: [${4:date}],
 )
+= Executive summary
+#lorem(15)
+
+#pagebreak(weak: true)
+
+// table of contents
+
+#outline(
+  indent: auto, 
+  depth: 2
+)
+#outline(
+  title: [List of Figures],
+  target: figure.where(kind: image),
+)
+#outline(
+  title: [List of Tables],
+  target: figure.where(kind: table),
+)
+
+// Abbreviations and acronyms
+
+/ CAPEX: Capital expenditure
+/ CS: Carbon steel
+
+#pagebreak(weak: true)
+
 // content hereon
+
+${0}
   ]]></content>
   <tabTrigger>note</tabTrigger>
   <scope>text.typst</scope>

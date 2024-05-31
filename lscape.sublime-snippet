@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+// set page to landscape
+#set page(
+  flipped: true,
+)
+
+${0}
+
+//set page back to portrait
+#set page(
+  flipped: false,
+)
+  ]]></content>
+  <tabTrigger>lscape</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Set page to landscape</description>
+</snippet>

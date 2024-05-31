@@ -1,6 +1,9 @@
 <snippet>
   <content><![CDATA[
-#import "letter-template.typ": letter
+// Use the letter package like below
+#import "@preview/appreciated-letter:0.1.0": letter
+// or the custom template like below
+// #import "letter-template.typ": letter
 #show: letter.with(
   sender: [
     ${1:name_and_address}  

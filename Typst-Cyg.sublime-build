@@ -1,0 +1,6 @@
+{
+	"shell_cmd" : "typst compile \"$file_name\"",
+	"selector" : "source.typ",
+	"path" : "C:\\Users\\ckun\\misc\\cyg\\bin;$path",
+	"working_dir" : "$file_path"
+}

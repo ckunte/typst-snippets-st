@@ -2,7 +2,7 @@
   <content><![CDATA[
 #let ${1:subj} = read("${2:filepath}${1:subj}.py")
 #{linebreak();raw(${1:subj}, lang: "python")}
-  ]]></content>
+]]></content>
   <tabTrigger>cod</tabTrigger>
   <scope>text.typst</scope>
   <description>Insert python code file)</description>

@@ -76,7 +76,7 @@
   v(5mm)
   name
 }
-  ]]></content>
+]]></content>
   <tabTrigger>ltmpl</tabTrigger>
   <scope>text.typst</scope>
   <description>Insert letter template</description>

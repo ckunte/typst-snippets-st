@@ -6,7 +6,7 @@
   edition = "{${4:document number and revision}}",
   date    = "${5:year and month in yyyy-mm}",
 },
-  ]]></content>
+]]></content>
   <tabTrigger>bib</tabTrigger>
   <scope>text.bibtex</scope>
   <description>Insert a bib entry</description>

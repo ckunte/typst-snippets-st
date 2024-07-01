@@ -39,6 +39,20 @@ This is done in two steps, viz., (a) add a repository and then (b) activate it. 
 
 From _Tools > Command Palette..._ type _Upgrade Package_, and select one of the two options presented (i.e., _Package Control: Upgrade Package_ or _Package Control: Upgrade/Overwrite All Packages_).
 
+## Custom build
+
+A custom build file (e.g. like below: `Typst-Cyg.sublime-build`) can be added under _Settings > Browse packages > User_, with file path edited to suit:
+
+```
+{
+    "shell_cmd" : "typst compile \"$file_name\"",
+    "selector" : "source.typ",
+    "path" : "C:\\Users\\ckun\\misc\\cyg\\bin;$path",
+    "working_dir" : "$file_path"
+}
+```
+Then From _Tools > Build system_, select _Typst-Cyg_. This will enable building (with Ctrl+B) from source to output (i.e. from .typ to .pdf file) from within Sublime Text.
+
 [Typst]: https://typst.app
 [st]: https://www.sublimetext.com "Text editing done right."
 [tp]: https://packagecontrol.io/packages/Typst

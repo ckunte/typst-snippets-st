@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+#align(center, text(18pt)[
+  *${1:Title}*
+])
+  ]]></content>
+  <tabTrigger>ttl</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a title block</description>
+</snippet>
+

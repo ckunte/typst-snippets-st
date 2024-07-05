@@ -9,7 +9,7 @@
 }
 #show: appendix
 // appendices hereon
-  ]]></content>
+]]></content>
   <tabTrigger>apdx</tabTrigger>
   <scope>text.typst</scope>
   <description>Insert appendix block)</description>

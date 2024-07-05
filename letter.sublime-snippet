@@ -17,7 +17,7 @@
 )
 // letter content hereon
 ${4:letter_content_hereon}
-  ]]></content>
+]]></content>
   <tabTrigger>letter</tabTrigger>
   <scope>text.typst</scope>
   <description>Insert a letter block</description>

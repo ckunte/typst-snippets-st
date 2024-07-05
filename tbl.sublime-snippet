@@ -11,11 +11,7 @@
   ),
   caption: [${1:Description}],
 ) <${2:label}>
-/* table options:
-    align: https://typst.app/docs/reference/layout/alignment/
-    inset: https://typst.app/docs/reference/model/table/#parameters-inset 
-*/
-  ]]></content>
+]]></content>
   <tabTrigger>tbl</tabTrigger>
   <scope>text.typst</scope>
   <description>Insert a table block</description>

@@ -11,7 +11,7 @@
   ),
   caption: [${1:Description}],
 ) <${2:label}>
-  ]]></content>
+]]></content>
   <tabTrigger>tbl</tabTrigger>
   <scope>text.typst</scope>
   <description>Insert a table block</description>

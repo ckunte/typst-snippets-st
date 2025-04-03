@@ -5,8 +5,8 @@
   title: [${1:title}],
   author: "${2:author}",
   paper: "a4",
-)
-// content from here-on
+) // content from here-on
+${3:Content}
 ]]></content>
   <tabTrigger>note</tabTrigger>
   <scope>text.typst</scope>

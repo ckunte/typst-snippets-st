@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+#figure(
+  grid(
+  columns: 1,
+  rows: 2,
+  gutter: 2mm,
+    image("${1:filename_incl_path}", width: 100%),
+    image("${2:filename_incl_path}", width: 100%),
+  ),
+  caption: [${3:Description}]
+) <${4:label}>
+  ]]></content>
+  <tabTrigger>fgg</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert figures block in grid</description>
+</snippet>

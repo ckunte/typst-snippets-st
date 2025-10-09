@@ -10,6 +10,7 @@ This repository contains the following custom snippets:
 | `bib` + <kbd>tab</kbd>    | BibTeX entry           |
 | `cod` + <kbd>tab</kbd>    | python code file       |
 | `fig` + <kbd>tab</kbd>    | figure block           |
+| `fgg` + <kbd>tab</kbd>    | figures block in grid  |
 | `file` + <kbd>tab</kbd>   | file                   |
 | `hd` + <kbd>tab</kbd>     | set heading no.s       |
 | `letter` + <kbd>tab</kbd> | letter block           |

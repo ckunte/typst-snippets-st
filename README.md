@@ -11,6 +11,7 @@ This repository contains the following custom snippets:
 | `cod` + <kbd>tab</kbd>    | python code file       |
 | `fig` + <kbd>tab</kbd>    | figure block           |
 | `fgg` + <kbd>tab</kbd>    | figures block in grid  |
+| `fgr` + <kbd>tab</kbd>    | figure (rotated) block |
 | `file` + <kbd>tab</kbd>   | file                   |
 | `hd` + <kbd>tab</kbd>     | set heading no.s       |
 | `letter` + <kbd>tab</kbd> | letter block           |

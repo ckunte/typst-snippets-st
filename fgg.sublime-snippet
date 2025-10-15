@@ -2,9 +2,9 @@
   <content><![CDATA[
 #figure(
   grid(
-  columns: 1,
-  rows: 2,
-  gutter: 2mm,
+  columns: 2,
+  rows: 1,
+  gutter: 1mm,
     image("${1:filename_incl_path}", width: 100%),
     image("${2:filename_incl_path}", width: 100%),
   ),

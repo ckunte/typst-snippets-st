@@ -6,7 +6,7 @@
   ),
   caption: [${2:Description}],
 ) <${3:label}>
-  ]]></content>
+]]></content>
   <tabTrigger>fgr</tabTrigger>
   <scope>text.typst</scope>
   <description>Insert a rotated figure block</description>

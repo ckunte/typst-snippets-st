@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 #link("${1:url}")[${2:label}]
-  ]]></content>
+]]></content>
   <tabTrigger>lnk</tabTrigger>
   <scope>text.typst</scope>
   <description>Set url and link label</description>

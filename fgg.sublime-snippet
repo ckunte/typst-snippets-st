@@ -10,7 +10,7 @@
   ),
   caption: [${3:Description}]
 ) <${4:label}>
-  ]]></content>
+]]></content>
   <tabTrigger>fgg</tabTrigger>
   <scope>text.typst</scope>
   <description>Insert figures block in grid</description>

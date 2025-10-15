@@ -11,7 +11,7 @@ ${0}
 #set page(
   flipped: false,
 )
-  ]]></content>
+]]></content>
   <tabTrigger>lscape</tabTrigger>
   <scope>text.typst</scope>
   <description>Set page to landscape</description>

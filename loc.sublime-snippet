@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+#figure(
+  rect(image(fm.at(0) + "-loc.png", width: 100%)),
+  caption: [ORA-#fm.at(0) scope location]
+) <${1:label}>
+]]></content>
+  <tabTrigger>loc</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a location figure</description>
+</snippet>

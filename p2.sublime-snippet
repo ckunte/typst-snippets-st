@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+#figure(
+  grid(
+  columns: 2,
+  rows: 1,
+  gutter: 1mm,
+    image(fm.at(0) + "-photo-1.png", width: 100%),
+    image(fm.at(0) + "-photo-2.png", width: 100%),
+  ),
+  caption: [${1:Description} (1)]
+) <${2:label}-1>
+
+#figure(
+  grid(
+  columns: 2,
+  rows: 1,
+  gutter: 1mm,
+    image(fm.at(0) + "-photo-3.png", width: 100%),
+    image(fm.at(0) + "-photo-4.png", width: 100%),
+  ),
+  caption: [${1:Description} (2)]
+) <${2:label}-2>
+]]></content>
+  <tabTrigger>p2</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert anomaly figures in a 2x1 grid twice</description>
+</snippet>

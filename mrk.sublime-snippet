@@ -2,7 +2,7 @@
   <content><![CDATA[
 #figure(
   rotate( -90deg, reflow: true,
-    image(fm.at(0) + "-markup.png", width: 100%),
+    image("img/" + fm.at(0) + "-markup.png", width: 100%),
   ), 
   caption: [${1:Description}]
 ) <${2:label}>

@@ -3,7 +3,7 @@
 #figure(
   grid(
   columns: 2,
-  rows: 1,
+//rows: 1,
   gutter: 1mm,
     image("img/" + fm.at(0) + "-photo-1.png", width: 100%),
     image("img/" + fm.at(0) + "-photo-2.png", width: 100%),

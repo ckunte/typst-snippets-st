@@ -1,14 +1,13 @@
 <snippet>
-  <content><![CDATA[    
+<content><![CDATA[    
+/* legend:
+  [1] web plates + stiffen,     [2] web / flange replace
+  [3] column base - type 1,     [4] column base - type 2
+  [5] top flange plt + stiffen, [6] beam to beam double angle
+  [7] handrail base,            [8] handrail kneerail + kick plt
+*/
 #figure(
-  //image("img/ST-RE-1.png", width: 100%), // web plates + stiffen
-  //image("img/ST-RE-2.png", width: 100%), // web / flange replace
-  //image("img/ST-RE-3.png", width: 100%), // column base - type 1
-  //image("img/ST-RE-4.png", width: 100%), // column base - type 2
-  //image("img/ST-RE-5.png", width: 100%), // top flange plt + stiffen
-  //image("img/ST-RE-6.png", width: 100%), // beam to beam double angle
-  //image("img/ST-RE-7.png", width: 100%), // handrail base
-  //image("img/ST-RE-8.png", width: 100%), // handrail kneerail + kick plt
+  image("img/ST-RE-${1:num}.png", width: 100%),
   caption: [Structural repair sketch]
 ) <strep>
 ]]></content>

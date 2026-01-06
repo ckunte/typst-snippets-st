@@ -32,6 +32,7 @@ Some custom snippets (scope specific):
 | `mrk` + <kbd>tab</kbd>    | Insert markup dwg rotated |
 | `p1` + <kbd>tab</kbd>     | Insert custom fig (2x1)   |
 | `p2` + <kbd>tab</kbd>     | Insert custom fig (2x1)x2 |
+| `strep` + <kbd>tab</kbd>  | Insert fig cf repair(s)   |
 
 These snippets work when the file under edit is set as a Typst file from the pull-up menu in the status bar. (Suggest installing [Typst package][tp].)
 

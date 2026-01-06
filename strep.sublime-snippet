@@ -9,7 +9,7 @@
 #figure(
   image("img/ST-RE-${1:num}.png", width: 100%),
   caption: [Structural repair sketch]
-) <strep>
+) <strep${1}>
 ]]></content>
   <tabTrigger>strep</tabTrigger>
   <scope>text.typst</scope>

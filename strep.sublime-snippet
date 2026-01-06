@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[    
+#figure(
+  //image("img/ST-RE-01.png", width: 100%), // web plates + stiffen
+  image("img/ST-RE-01.png", width: 100%), // web / flange replace
+  //image("img/ST-RE-01.png", width: 100%), // column base - type 1
+  //image("img/ST-RE-01.png", width: 100%), // column base - type 2
+  //image("img/ST-RE-01.png", width: 100%), // top flange plt + stiffen
+  //image("img/ST-RE-01.png", width: 100%), // beam to beam double angle
+  //image("img/ST-RE-01.png", width: 100%), // handrail base
+  //image("img/ST-RE-01.png", width: 100%), // handrail kneerail + kick plt
+  caption: [Structural repair sketch]
+) <strep>
+]]></content>
+  <tabTrigger>strep</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a figure block re: structural repairs</description>
+</snippet>

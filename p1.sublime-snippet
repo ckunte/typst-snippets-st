@@ -1,17 +1,17 @@
 <snippet>
   <content><![CDATA[
-#figure({
-  let n = ${1:no_of_photos}
-  let path = "img/" + fm.sco + "-photo-"
-  let format = if n < 10 { str } else { i => str(i, count: 2) }
+#figure(
   grid(
-    columns: ${2:no_columns}, gutter: 1mm,
-    ..range(1, n + 1).map(i => image(path + format(i) + ".png", width: 100%))
-  )
-}, caption: [Defect photos]
-) <${3:label}>
+  columns: 2,
+//rows: 1,
+  gutter: 1mm,
+    image("img/" + fm.sco + "-photo-1.png", width: 100%),
+    image("img/" + fm.sco + "-photo-2.png", width: 100%),
+  ),
+  caption: [${1:Description}]
+) <${2:label}>
 ]]></content>
   <tabTrigger>p1</tabTrigger>
   <scope>text.typst</scope>
-  <description>Insert anomaly figures in a grid</description>
+  <description>Insert anomaly figures in a 2x1 grid</description>
 </snippet>

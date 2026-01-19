@@ -1,15 +1,12 @@
 <snippet>
-<content><![CDATA[    
+<content><![CDATA[
 /* legend:
   [1] web plates + stiffen,     [2] web / flange replace
   [3] column base - type 1,     [4] column base - type 2
   [5] top flange plt + stiffen, [6] beam to beam double angle
   [7] handrail base,            [8] handrail kneerail + kick plt
 */
-#figure(
-  image("img/ST-RE-${1:num}.png", width: 100%),
-  caption: [Structural repair sketch]
-) <strep${1}>
+#image("img/KENT-SK-ST-00${1:num}_B.pdf", height:100%)
 ]]></content>
   <tabTrigger>strep</tabTrigger>
   <scope>text.typst</scope>

@@ -1,12 +1,12 @@
 <snippet>
 <content><![CDATA[
 /* legend:
-  [1] web plates + stiffen,     [2] web / flange replace
-  [3] column base - type 1,     [4] column base - type 2
-  [5] top flange plt + stiffen, [6] beam to beam double angle
-  [7] handrail base,            [8] handrail kneerail + kick plt
+[1] web plates + stiffen      [2] web / bott flange pl replace
+[3] column base               [4] flange pl + stiffen
+[5] beam-to-beam double plt   [6] side-mounted handrail base
+[7] top-mounted handrail base [8] handrail / kneerail / kick plt
 */
-#image("img/KENT-SK-ST-00${1:num}_B.pdf", height:100%)
+#image("img/KENT-SK-ST-005_B.pdf", height:100%)
 ]]></content>
   <tabTrigger>strep</tabTrigger>
   <scope>text.typst</scope>

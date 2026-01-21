@@ -28,6 +28,7 @@ Some custom snippets (scope specific):
 
 | Snippet                   | Inserts                   |
 | ------------------------- | --------------------------|
+| `dwg` + <kbd>tab</kbd>    | Insert a PDF drawing      |
 | `loc` + <kbd>tab</kbd>    | Insert location figure    |
 | `mrk` + <kbd>tab</kbd>    | Insert markup dwg rotated |
 | `p1` + <kbd>tab</kbd>     | Insert custom fig in grid |

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+#image("img/${1:dwg_filename}.pdf", height:100%)
+]]></content>
+  <tabTrigger>hd</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a PDF drawing</description>
+</snippet>

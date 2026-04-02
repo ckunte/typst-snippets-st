@@ -2,13 +2,13 @@
   <content><![CDATA[
 #figure(
   grid(
-  columns: 2,
 //rows: 1,
+  columns: 2,
   gutter: 1mm,
     image("img/" + fm.sco + "-photo-1.png", width: 100%),
     image("img/" + fm.sco + "-photo-2.png", width: 100%),
   ),
-  caption: [${1:Description}]
+  caption: [${1:Defect photos}]
 ) <${2:label}>
 ]]></content>
   <tabTrigger>p1</tabTrigger>

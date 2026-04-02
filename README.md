@@ -4,25 +4,26 @@ Typesetting documents, letters, reports, or even books in [Typst] is not as verb
 
 This repository contains the following custom snippets:
 
-| Snippet                   | Inserts                   |
-| ------------------------- | --------------------------|
-| `apdx` + <kbd>tab</kbd>   | appendix block            |
-| `bib` + <kbd>tab</kbd>    | BibTeX entry              |
-| `cod` + <kbd>tab</kbd>    | python code file          |
-| `fig` + <kbd>tab</kbd>    | figure block              |
-| `fgg` + <kbd>tab</kbd>    | figures block in grid     |
-| `fgr` + <kbd>tab</kbd>    | figure (rotated) block    |
-| `file` + <kbd>tab</kbd>   | file                      |
-| `hd` + <kbd>tab</kbd>     | set heading no.s          |
-| `letter` + <kbd>tab</kbd> | letter block              |
-| `lnk` + <kbd>tab</kbd>    | url and link label        |
-| `ltmpl` + <kbd>tab</kbd>  | letter template           |
-| `lscape` + <kbd>tab</kbd> | set page to landscape     |
-| `note` + <kbd>tab</kbd>   | note block                |
-| `ntmpl` + <kbd>tab</kbd>  | note template             |
-| `pb` + <kbd>tab</kbd>     | page break                |
-| `ref` + <kbd>tab</kbd>    | reference block           |
-| `tbl` + <kbd>tab</kbd>    | table block               |
+| Snippet                   | Inserts                |
+| ------------------------- | -----------------------|
+| `apdx` + <kbd>tab</kbd>   | appendix block         |
+| `bib` + <kbd>tab</kbd>    | BibTeX entry           |
+| `cod` + <kbd>tab</kbd>    | python code file       |
+| `fig` + <kbd>tab</kbd>    | figure block           |
+| `fgg` + <kbd>tab</kbd>    | figures block in grid  |
+| `fgr` + <kbd>tab</kbd>    | figure (rotated) block |
+| `file` + <kbd>tab</kbd>   | file                   |
+| `hd` + <kbd>tab</kbd>     | set heading no.s       |
+| `letter` + <kbd>tab</kbd> | letter block           |
+| `lnk` + <kbd>tab</kbd>    | url and link label     |
+| `ltmpl` + <kbd>tab</kbd>  | letter template        |
+| `lscape` + <kbd>tab</kbd> | set page to landscape  |
+| `note` + <kbd>tab</kbd>   | note block             |
+| `ntmpl` + <kbd>tab</kbd>  | note template          |
+| `pb` + <kbd>tab</kbd>     | page break             |
+| `pdfr` + <kbd>tab</kbd>   | PDF pages in a range   |
+| `ref` + <kbd>tab</kbd>    | reference block        |
+| `tbl` + <kbd>tab</kbd>    | table block            |
 
 Some custom snippets (scope specific):
 

@@ -21,7 +21,6 @@ This repository contains the following custom snippets:
 | `note` + <kbd>tab</kbd>   | note block             |
 | `ntmpl` + <kbd>tab</kbd>  | note template          |
 | `pb` + <kbd>tab</kbd>     | page break             |
-| `pdfr` + <kbd>tab</kbd>   | PDF pages in a range   |
 | `ref` + <kbd>tab</kbd>    | reference block        |
 | `tbl` + <kbd>tab</kbd>    | table block            |
 
@@ -33,6 +32,7 @@ Some custom snippets (scope specific):
 | `loc` + <kbd>tab</kbd>    | Insert location figure    |
 | `mrk` + <kbd>tab</kbd>    | Insert markup dwg rotated |
 | `p1` + <kbd>tab</kbd>     | Insert custom fig in grid |
+| `pdfr` + <kbd>tab</kbd>   | PDF pages in a range   |
 | `strep` + <kbd>tab</kbd>  | Insert fig cf repair(s)   |
 
 These snippets work when the file under edit is set as a Typst file from the pull-up menu in the status bar. (Suggest installing [Typst package][tp].)

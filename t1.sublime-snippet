@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+#let gimage(path) = image(path, width: 100%, height: 6cm, fit: "cover")
+#figure(
+  grid(
+    columns: ${1:2},
+    gutter: 1mm,
+     gimage("img/" + fm.sco + "-photo-1.png"),
+     gimage("img/" + fm.sco + "-photo-2.png"),
+     gimage("img/" + fm.sco + "-photo-3.png"),
+     gimage("img/" + fm.sco + "-photo-4.png"),
+  ),
+  caption: [${2:Defect photos}]
+) <${3:label}>
+]]></content>
+  <tabTrigger>t1</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert anomaly figures in a tiled layout</description>
+</snippet>

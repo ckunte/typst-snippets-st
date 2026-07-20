@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-#import "template.typ": * // from github.com/ckunte/note
+#import "@local/note:0.1.0": note // (alternatively: #import "template.typ": * )
 #show: note.with(
   title: [${1:title}],
   author: "${2:author}",

@@ -6,6 +6,10 @@
   author: "${2:author}",
   paper: "a4",
 ) // content from here-on
+
+#set heading(numbering: "1.1")
+#include("toc.typ")
+
 ${3}
 ]]></content>
   <tabTrigger>note</tabTrigger>

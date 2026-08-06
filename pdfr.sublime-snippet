@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-#for p in range(${2:firstpage}, ${3:lastpage} + 1) {
-  image("img/" + fm.sco + "-dwgs.pdf", page: p, width:100%)
+#for p in range(${1:firstpage}, ${2:lastpage} + 1) {
+  image("${3:filename}.pdf", page: p, width:100%)
 }
 ]]></content>
   <tabTrigger>pdfr</tabTrigger>

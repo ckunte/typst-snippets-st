@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#let ${1:data} = csv("${2:tabledata}.csv")
+#table(
+  columns: 2,
+  ..for (col1, col2) in ${1:data} {
+    (col1, col2)
+  }
+)
+]]></content>
+  <tabTrigger>ctb</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert CSV table</description>
+</snippet>

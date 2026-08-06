@@ -9,6 +9,7 @@ This repository contains the following custom snippets:
 | `apdx` + <kbd>tab</kbd>   | appendix block          |
 | `bib` + <kbd>tab</kbd>    | BibTeX entry            |
 | `cod` + <kbd>tab</kbd>    | python code file        |
+| `ctb` + <kbd>tab</kbd>    | CSV table               |
 | `fig` + <kbd>tab</kbd>    | figure block            |
 | `fgg` + <kbd>tab</kbd>    | figures block in grid   |
 | `fgr` + <kbd>tab</kbd>    | figure (rotated) block  |
@@ -23,6 +24,7 @@ This repository contains the following custom snippets:
 | `pb` + <kbd>tab</kbd>     | page break              |
 | `ref` + <kbd>tab</kbd>    | reference block         |
 | `tbl` + <kbd>tab</kbd>    | table block             |
+| `toc` + <kbd>tab</kbd>    | TOC block               |
 
 Some custom snippets (scope specific):
 

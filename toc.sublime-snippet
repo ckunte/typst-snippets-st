@@ -21,7 +21,7 @@
   // Only render the outline if there are tables
   if tbl-count > 0 {
     outline(
-      title: [List of Figures],
+      title: [List of Tables],
       target: figure.where(kind: table),
     )
   }

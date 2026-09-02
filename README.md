@@ -51,6 +51,8 @@ This is done in two steps, viz., (a) add a repository and then (b) activate it. 
 1. From _Tools > Command Palette..._ type _Add Repository_, and in the input box, enter `https://github.com/ckunte/typst-snippets-st`
 2. From _Tools > Command Palette..._ type _Install Package_, and in the result list, type `typst-snippets-st` and select the thus found package.
 
+(If ST has no access to the internet, then download the repo folder, and park it under _Preferences > Browse Packages.. > User_. Upgrading package requires re-downloading the folder and replace the old with the new in the location above.)
+
 ## How to upgrade 
 
 From _Tools > Command Palette..._ type _Upgrade Package_, and select one of the two options presented (i.e., _Package Control: Upgrade Package_ or _Package Control: Upgrade/Overwrite All Packages_).

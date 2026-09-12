@@ -23,15 +23,20 @@ This repository contains the following custom snippets:
 | `ntmpl` + <kbd>tab</kbd>  | note template           |
 | `pb` + <kbd>tab</kbd>     | page break              |
 | `ref` + <kbd>tab</kbd>    | reference block         |
+| `tbl` + <kbd>tab</kbd>    | table block             |
+| `toc` + <kbd>tab</kbd>    | TOC block               |
+
+Slide pack snippets (for [polylux]-based presentations):
+
+| Snippet                   | Inserts                 |
+| ------------------------- | ----------------------- |
 | `sp` + <kbd>tab</kbd>     | slide pack block        |
 | `sptmpl` + <kbd>tab</kbd> | slide pack template     |
+| `ts` + <kbd>tab</kbd>     | title slide             |
+| `tc` + <kbd>tab</kbd>     | TOC slide               |
 | `ss` + <kbd>tab</kbd>     | section title slide     |
 | `s1` + <kbd>tab</kbd>     | slide, single column    |
 | `s2` + <kbd>tab</kbd>     | slide, two columns      |
-| `tbl` + <kbd>tab</kbd>    | table block             |
-| `tc` + <kbd>tab</kbd>     | TOC slide               |
-| `toc` + <kbd>tab</kbd>    | TOC block               |
-| `ts` + <kbd>tab</kbd>     | title slide             |
 
 Some custom snippets (scope specific):
 
@@ -81,3 +86,4 @@ Then From _Tools > Build system_, select _Typst-Cyg_. This will enable building 
 [Typst]: https://typst.app
 [st]: https://www.sublimetext.com "Text editing done right."
 [tp]: https://packagecontrol.io/packages/Typst
+[polylux]: https://typst.app/universe/package/polylux

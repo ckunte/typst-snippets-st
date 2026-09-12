@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#import "@preview/polylux:0.4.0": *
+#import "@local/slidepack:0.1.0": slidepack
+#show: slidepack.with(
+  title: [${1:title}],
+  author: "${2:author}",
+) // content from here-on
+
+${3}
+]]></content>
+  <tabTrigger>sp</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a slide pack template</description>
+</snippet>

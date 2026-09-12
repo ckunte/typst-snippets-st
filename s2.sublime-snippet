@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+#slide[
+
+  = ${1:Heading}
+
+  #toolbox.side-by-side[
+
+    ${2:left column content}
+
+  ][
+
+    ${3:right column content}
+
+  ]
+
+]
+]]></content>
+  <tabTrigger>s2</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a slide (two columns)</description>
+</snippet>

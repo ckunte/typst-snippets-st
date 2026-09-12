@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+#slide[
+  #set align(center + horizon)
+  = ${1:Section title}
+
+]
+]]></content>
+  <tabTrigger>ss</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a section title slide</description>
+</snippet>

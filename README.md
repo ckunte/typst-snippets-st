@@ -23,8 +23,15 @@ This repository contains the following custom snippets:
 | `ntmpl` + <kbd>tab</kbd>  | note template           |
 | `pb` + <kbd>tab</kbd>     | page break              |
 | `ref` + <kbd>tab</kbd>    | reference block         |
+| `sp` + <kbd>tab</kbd>     | slide pack block        |
+| `sptmpl` + <kbd>tab</kbd> | slide pack template     |
+| `ss` + <kbd>tab</kbd>     | section title slide     |
+| `s1` + <kbd>tab</kbd>     | slide, single column    |
+| `s2` + <kbd>tab</kbd>     | slide, two columns      |
 | `tbl` + <kbd>tab</kbd>    | table block             |
+| `tc` + <kbd>tab</kbd>     | TOC slide               |
 | `toc` + <kbd>tab</kbd>    | TOC block               |
+| `ts` + <kbd>tab</kbd>     | title slide             |
 
 Some custom snippets (scope specific):
 

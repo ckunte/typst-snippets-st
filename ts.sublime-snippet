@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+#slide[
+  #set page(footer: none)
+  #set align(center + horizon)
+
+  #toolbox.side-by-side[
+    #rect(height: 1.2fr)[#image("${1:img/cover.png}")]
+  ][
+
+  #text(1.8em)[*${2:Title}*]
+
+  _${3:Subtitle}_
+
+  ${4:Author} \ ${5:Date}
+
+  ]
+
+]
+]]></content>
+  <tabTrigger>ts</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a title slide</description>
+</snippet>

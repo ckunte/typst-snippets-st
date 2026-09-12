@@ -1,0 +1,71 @@
+<snippet>
+  <content><![CDATA[
+// Template for slide pack presentations
+// Available from https://github.com/ckunte/slidepack
+// 2025 C Kunte
+#import "@preview/polylux:0.4.0": toolbox
+
+#let slidepack(
+  // title of the slide pack
+  title: [Presentation title],
+
+  // author of the slide pack
+  author: "Author",
+
+  // content of the slide pack
+  body,
+) = {
+  // metadata for the slide pack
+  set document(title: title, author: author)
+
+  // page properties
+  set page(
+    paper: "presentation-16-9",
+    footer: align(right, text(size: 9pt, toolbox.slide-number)),
+    margin: auto,
+  )
+
+  // font properties
+  set text(
+    font: "Segoe UI",
+    size: 18pt,
+  )
+
+  // small caps
+  let sc(content) = text(features: ("c2sc",))[#content]
+  show regex("[A-Z]{2,}"): match => {
+    sc(match)
+  }
+
+  show heading: set block(below: 2em)
+
+  // link properties
+  show cite: set text(fill: maroon) // set cite colour
+  show ref: set text(fill: rgb(0, 0, 128)) // set reference colour
+  show link: set text(fill: rgb(0, 0, 255)) // set link colour
+  show link: underline
+  show footnote: set text(fill: maroon)
+  show footnote.entry: set text(fill: maroon)
+
+  //
+  body
+}
+/*
+
+// import this template into, say, main.typ like so, and edit
+// details (e.g. title and author): as required (e.g.):
+
+#import "@preview/polylux:0.4.0": *
+#import "@local/slidepack:0.1.0": slidepack
+#show: slidepack.with(
+  title: [A slide pack],
+  author: "C Kunte",
+)
+// content from here-on
+
+*/
+]]></content>
+  <tabTrigger>sptmpl</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert slide pack template</description>
+</snippet>

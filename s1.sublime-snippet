@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#slide[
+
+  = ${1:Heading}
+
+  ${2:content}
+
+]
+]]></content>
+  <tabTrigger>s1</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a slide (single column)</description>
+</snippet>

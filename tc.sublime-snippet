@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#slide[
+
+  #set page(columns: 2)
+  #outline(depth: ${1:2})
+
+]
+]]></content>
+  <tabTrigger>tc</tabTrigger>
+  <scope>text.typst</scope>
+  <description>Insert a TOC slide</description>
+</snippet>
